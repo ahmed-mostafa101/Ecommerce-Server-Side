@@ -7,7 +7,10 @@ const productsRoutes = require('./routes/productsRoutes');
 
 const app = express();
 
-app.use(express.json());
+const cors = require('cors');
+app.use(cors());
+
+app.use(express.json());z
 app.use('/user', userRoutes);
 app.use('/user/cart', cartRoutes);
 app.use('/products', productsRoutes);
