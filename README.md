@@ -1,4 +1,4 @@
-# Ecommerce Server Side Application
+# E-commerce Platform (Server Side)
 
 This is the back-end server for an e-commerce application built using **Node.js**, **Express.js**, and **MongoDB**. The project is organized into different layers including controllers, routes, models, and middleware to ensure scalability, maintainability, and clean code.
 
